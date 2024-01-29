@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="app">
+        {{ msg }}
+    </div>
+
+    <script src = "https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+
+
+    <script>
+        // 向应式数据→数据变化了，视图自动更新
+        const app = new Vue({
+            el: '#app',
+            data: {
+                msg: '你好 hello',
+                count: 100
+            }
+        })
+
+        // data中的数据，最终会被添加到实例上
+        // 1、访问数据："实例属性名”
+        // 2、修改数据："实例属性名"="值"
+    </script>
+    
+</body>
+</html>

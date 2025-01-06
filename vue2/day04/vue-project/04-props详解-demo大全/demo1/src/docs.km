@@ -1,0 +1,72 @@
+{
+    "root": {
+        "data": {
+            "id": "cys60ei48e00",
+            "created": 1706630470085,
+            "text": "组件通信"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cys60kmsq280",
+                    "created": 1706630483429,
+                    "text": "父子关系"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cys610x5zfk0",
+                            "created": 1706630518885,
+                            "text": "props"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cys612ihg800",
+                            "created": 1706630522350,
+                            "text": "$emit"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cys60rmkqt40",
+                    "created": 1706630498653,
+                    "text": "非父子关系"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cys617cgo0w0",
+                            "created": 1706630532870,
+                            "text": "provide & inject"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cys61mt7xi00",
+                            "created": 1706630566535,
+                            "text": "eventbus"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cys60v7g3200",
+                    "created": 1706630506446,
+                    "text": "通用解决方案vuex"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

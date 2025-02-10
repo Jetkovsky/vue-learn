@@ -19,7 +19,7 @@ const channelStore = useChannelStore()
 // 为了保持原有的响应式，要使用这种
 const { count, msg } = storeToRefs(counterStore)
 
-
+// guest what can I do in the remote repo.
 
 </script>
 
